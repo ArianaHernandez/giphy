@@ -8,7 +8,7 @@ $("#search-button").click(function(){
   url: theUrl,
 method: "GET",
   success: function(response) {
-    $("body").append("<img src='"+response.data[0].images+"'/>");
+    $(".container").append("<img src='"+response.data[0].images.fixed_width.url+"'/>");
       
   },
 });
