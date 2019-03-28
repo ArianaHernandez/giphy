@@ -1,14 +1,36 @@
-
 body {
     padding-top: 200px;
    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+color:#ce75ff;
+background-image: url("https://thumbs.gfycat.com/RawMiserableArachnid-size_restricted.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 .navbar-brand {
-    color: white;	
+    color: white;
+}
+#banner{
+    height:50px;
+    width:200px;
+    margin-left:100px;
 }
 
 footer {
     padding-top: 100px;
     margin: 50px 0;
+}
+#search-button{
+    color:aqua;
+    border-color:#ce75ff;
+}
+#random-button{
+    margin-left:10px;
+    color:yellow;
+      border-color:#ce75ff;
+}
+.navbar{
+    justify-content:space-around;
+    background-color:black;
+    text-align:center;
 }
